@@ -7,11 +7,13 @@
 ## Branch
 - feature/avijeet-admin-notifications
 
-## Ownership Files (Target)
+## Ownership Files (Delivered)
+
 - CampusConnect/Views/Admin/AdminPanelView.swift
 - CampusConnect/ViewModels/AdminViewModel.swift
 - CampusConnect/Services/NotificationService.swift
-- CampusConnect/ViewModels/NotificationViewModel.swift
+- CampusConnect/ViewModels/NotificationsViewModel.swift
+- CampusConnect/Views/Notifications/NotificationsView.swift
 
 ## Commit Standard
 - [Abhijeet][Admin]
