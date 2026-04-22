@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Xcode user and build artifacts
+DerivedData/
+*.xcuserdatad/
+*.xcscmblueprint
+CampusConnect.xcodeproj/xcuserdata/
+
+# Firebase and Node artifacts
+firebase/functions/node_modules/
+firebase/functions/lib/
+firebase/functions/.firebase/
+firebase/functions/firebase-debug.log
+firebase/firebase-debug.log
+
+# Local Firebase iOS config (keep local)
+GoogleService-Info.plist

@@ -1,0 +1,25 @@
+{
+  "name": "campusconnect-functions",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase --config ../firebase.json deploy --only firestore:rules",
+    "deploy:functions": "firebase deploy --only functions",
+    "sync:notices": "node --use-system-ca scripts/sync-notices.cjs",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0-rc.12",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^4.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
